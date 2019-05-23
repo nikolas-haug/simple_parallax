@@ -7,6 +7,7 @@
 //     parallax.style.backgroundPositionY = offset * 0.85 + 'px';
 // });
 
+// Alternative for multiple images
 const parallax = document.querySelectorAll(".parallax");
 const horParallax = document.getElementById('fixed');
 window.addEventListener("scroll", function () {
