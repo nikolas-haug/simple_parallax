@@ -4,6 +4,23 @@
     margin: 0;
 }
 
+#fixed {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background: olivedrab;
+    z-index: 99;
+    top: 20%;
+    opacity: 0;
+    transform: translate(-100%, 0);
+    transition: all 0.5s;
+}
+
+#fixed.active {
+    opacity: 1;
+    transform: translate(50%, 0);
+}
+
 div {
     display: flex;
     align-items: center;
